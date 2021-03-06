@@ -13,7 +13,7 @@ backgroundImage = loadImage("images/Hot Air Ballon-01.png");
 function setup() {
   database = firebase.database();
   
-  createCanvas(600,600);
+  createCanvas(800,800);
   balloon = createSprite(250,250,50,50);
   balloon.addImage(balloonImage);
   balloon.scale = 0.5;
